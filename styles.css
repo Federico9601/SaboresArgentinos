@@ -1,0 +1,93 @@
+/* Importa la fuente Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #87CEEB; /* Celeste */
+  color: #333;
+}
+
+header {
+  background-color: #8B4513; /* Marrón cálido */
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #FFD700; /* Dorado */
+}
+
+section {
+  padding: 30px;
+  text-align: center;
+  background-color: #FFFFFF; /* Blanco */
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #8B4513; /* Marrón cálido */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+li {
+  margin: 15px 0;
+  font-size: 1.1em;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #87CEEB; /* Celeste */
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #FFD700; /* Dorado */
+}
+
+a {
+  color: #8B4513; /* Marrón cálido */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFD700; /* Dorado */
+}
+
+footer {
+  background-color: #8B4513; /* Marrón cálido */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
