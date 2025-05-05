@@ -91,7 +91,6 @@ footer {
   position: relative;
   width: 100%;
 }
-<style>
 .whatsapp-btn {
     display: inline-block;
     background-color: #25D366;
@@ -112,4 +111,3 @@ footer {
 .whatsapp-btn i {
     margin-right: 8px;
 }
-</style>
