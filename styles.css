@@ -120,3 +120,60 @@ footer {
 .social-icon:hover {
     color: #D4A017;
 }
+/* Sección Únete a Nosotros */
+.join-us {
+    background-color: #f9e8c9; /* Fondo cálido claro, similar al estilo de la página */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.join-us-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.join-us h2 {
+    font-size: 28px;
+    color: #5b3a29; /* Marrón oscuro, consistente con el tema */
+    margin-bottom: 20px;
+}
+
+.join-us p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Botón de WhatsApp */
+.whatsapp-btn {
+    display: inline-block;
+    background-color: #25D366; /* Verde de WhatsApp */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.whatsapp-btn:hover {
+    background-color: #128C7E; /* Verde más oscuro al pasar el mouse */
+}
+
+.whatsapp-btn i {
+    margin-right: 8px; /* Espacio entre ícono y texto */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .join-us h2 {
+        font-size: 24px;
+    }
+    .join-us p {
+        font-size: 14px;
+    }
+}
