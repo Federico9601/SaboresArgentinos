@@ -226,9 +226,8 @@ header {
     margin: 0 auto;
     max-width: 1200px;
     padding: 20px;
-}
 
-{
+
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -279,7 +278,7 @@ header {
 .sobre-nosotros {
     padding: 50px 20px;
     max-width: 1200px;
-    margin: 5 auto;
+    margin: 100px auto;
     text-align: center;
 }
 
