@@ -13,14 +13,14 @@ body {
 
 /* Header */
 header {
-    background-color: #027ed6
+    background-color: #027ed6;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     position: fixed;
     top: 0;
-    width: 100%
+    width: 100%;
     z-index: 1000;
     
 }
@@ -67,13 +67,13 @@ header {
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background-color: #027ed6;
+    background-color: #fafafa;
 }
 
 .carrusel {
     max-width: 800px;
     margin: 0 auto;
-    position: relative;
+    position: fixed;
     overflow: hidden;
 }
 
