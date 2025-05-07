@@ -13,7 +13,7 @@ body {
 
 /* Header */
 header {
-    background-color: #027ed6;
+    background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,7 +39,7 @@ header {
 }
 
 .nav-menu ul li a {
-    color: white;
+    color: #027ed6;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
@@ -82,7 +82,7 @@ header {
 
 .carrusel-imagenes img {
     width: 100%;
-    max-width: 300px;
+    max-width: 800px;
     display: none;
     border-radius: 10px;
     transition: opacity 0.5s ease-in-out;
@@ -93,7 +93,10 @@ header {
 }
 
 .carrusel-controles {
-    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
     top: 50%;
     width: 100%;
     display: flex;
@@ -299,7 +302,7 @@ header {
 }
 
 .historia h2, .mision h2, .equipo h2 {
-    color: #97b7c5;
+    color: #317a99;
     margin-bottom: 20px;
 }
 
