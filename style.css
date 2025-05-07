@@ -427,3 +427,21 @@ footer {
     width: 30px;
     height: auto; /* Mantiene la proporción */
 }
+
+/* Header Logo */
+.logo img {
+    width: 50px;
+    height: auto; /* Mantiene la proporción */
+}
+
+/* Footer Logo */
+.footer-logo img {
+    width: 100px;
+    height: auto; /* Mantiene la proporción */
+}
+
+/* Footer Redes Sociales */
+.footer-redes img {
+    width: 30px;
+    height: auto; /* Mantiene la proporción */
+}
