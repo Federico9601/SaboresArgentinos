@@ -421,3 +421,9 @@ footer {
     width: 100px;
     height: auto; /* Mantiene la proporción */
 }
+
+/* Footer Redes Sociales */
+.footer-redes img {
+    width: 30px;
+    height: auto; /* Mantiene la proporción */
+}
