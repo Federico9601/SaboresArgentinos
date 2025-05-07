@@ -322,3 +322,43 @@ footer {
         align-items: center;
     }
 }
+
+.sobre-nosotros {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sobre-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.historia, .mision, .equipo {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.historia h2, .mision h2, .equipo h2 {
+    color: #8B0000;
+    margin-bottom: 20px;
+}
+
+.historia p, .mision p, .equipo p {
+    color: #666;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .sobre-contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+}
