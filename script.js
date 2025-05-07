@@ -5,12 +5,23 @@ function toggleMenu() {
 }
 
 // Carrusel
-let currentIndex = 0;
-const images = document.querySelectorAll('.carrusel-imagenes img');
-const totalImages = images.length;
+document.addEventListener('DOMContentLoaded', () => {
+    let currentIndex = 0;
+    const images = document.querySelectorAll('.carrusel-imagenes img');
+    const totalImages = images.length;
 
-function cambiarImagen(direction) {
-    images[currentIndex].classList.remove('active');
-    currentIndex = (currentIndex + direction + totalImages) % totalImages;
-    images[currentIndex].classList.add('active');
-}
+    // Verificación para evitar errores si no hay imágenes
+    if (totalImages === 0) {
+        console.error('No se encontraron imágenes en el carrusel');
+        return;
+    }
+
+    function cambiarImagen(direction) {
+        images[currentIndex].classList.remove('active');
+        currentIndex = (currentIndex + direction + totalImages) % totalImages;
+        images[currentIndex].classList.add('active');
+    }
+
+    // Exponer la función al ámbito global para los botones
+    window.cambiarImagen = cambiarImagen;
+});
