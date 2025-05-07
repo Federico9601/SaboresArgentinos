@@ -409,3 +409,15 @@ footer {
 .whatsapp-btn i {
     font-size: 30px;
 }
+
+/* Header Logo */
+.logo img {
+    width: 50px;
+    height: auto; /* Mantiene la proporción */
+}
+
+/* Footer Logo */
+.footer-logo img {
+    width: 100px;
+    height: auto; /* Mantiene la proporción */
+}
