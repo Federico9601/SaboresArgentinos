@@ -70,6 +70,9 @@ header {
     background-color: #fafafa;
 }
 
+.hero, .contacto, .menu {
+    margin-bottom: 50px;
+}
 .carrusel {
     max-width: 800px;
     margin: 50px auto;
@@ -87,7 +90,7 @@ header {
 }
 
 .carrusel-controles {
-    position: absolute;
+    position: relative;
     top: 50%;
     width: 100%;
     display: flex;
@@ -202,8 +205,10 @@ header {
 }
 
 .redes-sociales img {
-    width: 30px;
-    height: 30px;
+    width: 100%;
+    max-width: 30px;
+    height: auto;
+    aspect-ratio: 1 / 1;
 }
 
 /* Menú */
