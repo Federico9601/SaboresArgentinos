@@ -1,0 +1,385 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #8B0000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu ul li {
+    margin: 0 15px;
+}
+
+.nav-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-menu ul li a:hover,
+.nav-menu ul li a.active {
+    color: #FFD700;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    background: white;
+    height: 3px;
+    width: 25px;
+    margin: 2px 0;
+}
+
+/* Hero (Inicio) */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.carrusel {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.carrusel-imagenes img {
+    width: 100%;
+    display: none;
+}
+
+.carrusel-imagenes img.active {
+    display: block;
+}
+
+.carrusel-controles {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+
+.carrusel-controles button {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.hero h1 {
+    color: #8B0000;
+    margin: 20px 0;
+    font-size: 36px;
+}
+
+.hero p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #8B0000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #A52A2A;
+}
+
+/* Contacto */
+.contacto {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contacto-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.formulario, .info-contacto {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.formulario h2, .info-contacto h2 {
+    color: #8B0000;
+    margin-bottom: 20px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.formulario input, .formulario textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formulario textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.formulario button {
+    background-color: #8B0000;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.formulario button:hover {
+    background-color: #A52A2A;
+}
+
+.info-contacto p {
+    margin: 10px 0;
+}
+
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Menú */
+.menu {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.categoria {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.categoria h2 {
+    color: #8B0000;
+    margin-bottom: 20px;
+}
+
+.categoria ul {
+    list-style: none;
+    padding: 0;
+}
+
+.categoria li {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.categoria h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.categoria p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.categoria span {
+    font-weight: bold;
+    color: #8B0000;
+}
+
+/* Sobre Nosotros */
+.sobre-nosotros {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sobre-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.historia, .mision, .equipo {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.historia h2, .mision h2, .equipo h2 {
+    color: #8B0000;
+    margin-bottom: 20px;
+}
+
+.historia p, .mision p, .equipo p {
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #8B0000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.footer-redes {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-redes img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-copy {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #8B0000;
+        padding: 20px;
+    }
+
+    .nav-menu.active {
+        display: block;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-menu ul li {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .contacto-contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre-contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-contenedor {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
