@@ -65,7 +65,7 @@ header {
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background-color: #f9f9f9;
+    background-color: #027ed6;
 }
 
 .carrusel {
@@ -103,7 +103,7 @@ header {
 }
 
 .hero h1 {
-    color: #a3a10d;
+    color: #027ed6;
     margin: 20px 0;
     font-size: 36px;
 }
@@ -165,7 +165,7 @@ header {
 
 .formulario input, .formulario textarea {
     padding: 10px;
-    border: 1px solid #04b5d0;
+    border: 1px solid #0421b1;
     border-radius: 5px;
     font-size: 16px;
 }
@@ -176,7 +176,7 @@ header {
 }
 
 .formulario button {
-    background-color: #a3a10d;
+    background-color: #027ed6;
     color: white;
     padding: 10px;
     border: none;
@@ -186,7 +186,7 @@ header {
 }
 
 .formulario button:hover {
-    background-color: #f7f324;
+    background-color: #24bbf7;
 }
 
 .info-contacto p {
@@ -229,7 +229,7 @@ header {
 }
 
 .categoria h2 {
-    color: #8B0000;
+    color: #000000;
     margin-bottom: 20px;
 }
 
@@ -256,7 +256,7 @@ header {
 
 .categoria span {
     font-weight: bold;
-    color: #8B0000;
+    color: #d8e60f;
 }
 
 /* Sobre Nosotros */
@@ -341,7 +341,7 @@ footer {
         top: 70px;
         left: 0;
         width: 100%;
-        background-color: #8B0000;
+        background-color: #1f016a;
         padding: 20px;
     }
 
