@@ -14,13 +14,15 @@ body {
 /* Header */
 header {
     background-color: #027ed6
-    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+    padding: 1rem;
+    position: fixed;
     top: 0;
-    z-index: 100;
+    width: 100%
+    z-index: 1000;
+    
 }
 
 .logo img {
@@ -109,7 +111,7 @@ header {
 }
 
 .hero p {
-    color: #666;
+    color: #027ed6;
     margin-bottom: 20px;
 }
 
@@ -123,7 +125,7 @@ header {
 }
 
 .btn:hover {
-    background-color: #A52A2A;
+    background-color: #0707d4;
 }
 
 /* Contacto */
@@ -256,7 +258,7 @@ header {
 
 .categoria span {
     font-weight: bold;
-    color: #d8e60f;
+    color: #080808;
 }
 
 /* Sobre Nosotros */
@@ -284,7 +286,7 @@ header {
 }
 
 .historia h2, .mision h2, .equipo h2 {
-    color: #8B0000;
+    color: #97b7c5;
     margin-bottom: 20px;
 }
 
@@ -341,7 +343,7 @@ footer {
         top: 70px;
         left: 0;
         width: 100%;
-        background-color: #1f016a;
+        background-color: #027ed6;
         padding: 20px;
     }
 
