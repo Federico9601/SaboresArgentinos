@@ -466,7 +466,11 @@ footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 18px;
+}
+
+.whatsapp-btn:hover {
+    background-color: #20b358;
 }
 
 .whatsapp-btn img {
