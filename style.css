@@ -425,3 +425,55 @@ footer {
 .btn-whatsapp:hover {
     transform: scale(1.1);
 }
+/* Footer */
+.footer-contenedor {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+/* Logo en el footer */
+.footer-logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Redes sociales en el footer */
+.footer-redes img {
+    width: 30px;
+    height: auto;
+    margin: 0 0.5rem;
+}
+
+.footer-copy {
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Botón de WhatsApp */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.whatsapp-btn img {
+    width: 40px;
+    height: auto;
+}
+
+.whatsapp-btn:hover {
+    background-color: #20b358;
+}
