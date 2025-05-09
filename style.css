@@ -288,6 +288,9 @@ gap: 1rem;
 }
 
 /* Sobre Nosotros */
+.logo img {
+    height: 60px;
+}
 .sobre-nosotros {
     padding: 50px 20px;
     max-width: 1200px;
