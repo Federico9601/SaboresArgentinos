@@ -13,7 +13,7 @@ body {
 
 /* Header */
 header {
-    background-color: #03dc03e;
+    background-color: #027ed6;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,7 +26,7 @@ header {
 }
 
 .logo img {
-    height: 50px;
+    height: 60px;
 }
 
 .nav-menu ul {
@@ -39,7 +39,7 @@ header {
 }
 
 .nav-menu ul li a {
-    color: #f8e23d;
+    color: #24bbf7;
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s;
@@ -313,7 +313,7 @@ header {
 
 /* Footer */
 footer {
-    background-color: #03dc03e;
+    background-color: #027ed6;
     color: rgb(0, 0, 0);
     padding: 20px;
     text-align: center;
@@ -329,7 +329,7 @@ footer {
 }
 
 .footer-logo img {
-    height: 50px;
+    height: 60px;
 }
 
 .footer-info p {
@@ -359,7 +359,7 @@ footer {
         top: 70px;
         left: 0;
         width: 100%;
-        background-color: #027ed6;
+        background-color: #028a3f;
         padding: 20px;
     }
 
@@ -403,8 +403,8 @@ footer {
 }
 .btn-whatsapp {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 50px;
+    right: 50px;
     width: 60px;
     height: 60px;
     background-color: #25D366;
@@ -418,8 +418,8 @@ footer {
 }
 
 .btn-whatsapp img {
-    width: 35px;
-    height: 35px;
+    width: 50px;
+    height: 50px;
 }
 
 .btn-whatsapp:hover {
@@ -451,10 +451,11 @@ footer {
 }
 
 /* Botón de WhatsApp */
+
 .whatsapp-btn {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 50px;
+    right: 50px;
     background-color: #25D366;
     color: #fff;
     border-radius: 50%;
@@ -474,7 +475,7 @@ footer {
 }
 
 .whatsapp-btn img {
-    width: 40px;
+    width: 50px;
     height: auto;
 }
 
