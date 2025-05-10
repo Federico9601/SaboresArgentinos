@@ -38,7 +38,7 @@ height: 60px;
 .nav-menu ul li a {
     color: #24bbf7;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     transition: color 0.3s;
 }
 
@@ -73,7 +73,7 @@ height: 60px;
 .carrusel {
     max-width: 800px;
     margin: 50px auto;
-    position: relative;
+    position: absolute;
     overflow: hidden;
 }
 
@@ -90,7 +90,7 @@ height: 60px;
 }
 
 .carrusel-controles {
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     bottom: 10px;
@@ -107,13 +107,13 @@ height: 60px;
     border: none;
     padding: 10px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .hero h1 {
     color: #027ed6;
     margin: 20px 0;
-    font-size: 32px;
+    font-size: 28px;
 }
 
 .hero p {
@@ -175,7 +175,7 @@ height: 60px;
     padding: 10px;
     border: 1px solid #0421b1;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .formulario textarea {
@@ -268,7 +268,7 @@ gap: 1rem;
 
 .categoria h3 {
     margin: 0;
-    font-size: 18px;
+    font-size: 12px;
     color: #333;
 }
 
@@ -316,7 +316,7 @@ gap: 1rem;
 
 .historia p, .mision p, .equipo p {
     color: #666;
-    line-height: 1.6;
+    line-height: 1.3;
 }
 
 /* Footer */
