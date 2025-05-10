@@ -36,7 +36,7 @@ height: 60px;
 }
 
 .nav-menu ul li a {
-    color: #24bbf7;
+    color: #FFFFFF;
     text-decoration: none;
     font-size: 14px;
     transition: color 0.3s;
@@ -64,7 +64,7 @@ height: 60px;
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background-color: #fafafa;
+    background-color: #FFFFFF;
 }
 
 .hero, .contacto, .menu {
@@ -73,13 +73,13 @@ height: 60px;
 .carrusel {
     max-width: 800px;
     margin: 50px auto;
-    position: absolute;
+    position: relative;
     overflow: hidden;
 }
 
 .carrusel-imagenes img {
     width: 100%;
-    max-width: 800px;
+    max-width: 800px 276px;
     display: none;
     border-radius: 10px;
     transition: opacity 0.5s ease-in-out;
@@ -137,7 +137,7 @@ height: 60px;
 /* Contacto */
 .contacto {
     padding: 50px 20px;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -217,7 +217,7 @@ height: 60px;
 /* Menú */
 .menu {
     padding: 50px 20px;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -234,7 +234,7 @@ gap: 1rem;
 
 .menu-contenedor {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 100%;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -287,8 +287,8 @@ gap: 1rem;
     height: 60px;
 }
 .sobre-nosotros {
-    padding: 50px 20px;
-    max-width: 1200px;
+    padding: 5px 5px;
+    max-width: 100%;
     margin: 100px auto;
     text-align: center;
 }
@@ -331,7 +331,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     gap: 20px;
 }
@@ -473,7 +473,7 @@ footer {
     align-items: center;
     justify-content: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
+    z-index: 100%;
     text-decoration: none;
     font-size: 18px;
 }
