@@ -21,7 +21,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
-    z-index: 100;
+    z-index: 1000;
     
 }
 
@@ -365,7 +365,7 @@ footer {
 }
 
 /* Media Queries */
-@media (max-width: 150px) {
+@media (max-width: 200px) {
     .nav-menu {
         display: none;
         position: absolute;
