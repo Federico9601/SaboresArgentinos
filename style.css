@@ -364,13 +364,13 @@ footer {
 /* Media Queries */
 @media (max-width: 200px) {
     .nav-menu {
-        display: none;
+        display: flex;
         position: absolute;
         top: 70px;
         left: 0;
         width: 100%;
         background-color: #028a3f;
-        padding: 20px;
+        padding: 50px;
     }
 
     .nav-menu.active {
